@@ -89,6 +89,7 @@ THREE.BufferMeshLineGeometry.prototype.updateFromObject = function (object) {
 THREE.BufferMeshLineGeometry.prototype.fromGeometry = function (geometry) {
     // The idea is that for each vertices on the line, generate four points that can be expanded to
     // generate a polygon shape.
+    // The reason for generating 4 points is to allow some basic form of line-join miter.
     // Note that for end points, only 2 should be generated, so the total vertex count is
     // 4*n - 4 (two for each end).
     // Unless it's a loop, which would be 4*n
