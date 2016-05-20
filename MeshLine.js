@@ -1,9 +1,9 @@
 // Example usage
-// var geom = new THREE.Geometry();
-// geom.vertices.push(new THREE.Vector3(0, 0, 0));
-// geom.vertices.push(new THREE.Vector3(6, 0, 0));
-// geom.vertices.push(new THREE.Vector3(6, 0, 6));
-// var meshLine = new THREE.MeshLine(geom);
+// var line = []];
+// line.push(new THREE.Vector3(0, 0, 0));
+// line.push(new THREE.Vector3(6, 0, 0));
+// line.push(new THREE.Vector3(6, 0, 6));
+// var meshLine = new THREE.MeshLine([line]);
 // scene.add(meshLine);
 
 /// <summary>MeshLine object</summary>
